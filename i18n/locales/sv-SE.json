@@ -1,0 +1,45 @@
+{
+  "language": "Språk",
+  "buttons": {
+    "back": "Tillbaka"
+  },
+  "home": {
+    "home": "Hem",
+    "history": "Historik",
+    "settings": "Inställningar"
+  },
+  "pageMenu": {
+    "selectImage": "Välj en bild",
+    "loading": "Laddar...",
+    "search": "Sök"
+  },
+  "anime": {
+    "posible_matches": "Möjliga matchningar",
+    "similarity": "Likhet",
+    "episode": "Avsn."
+  },
+  "account": {
+    "name": "Konto",
+    "accountId": "Kontoinformation",
+    "accountType": "Kontotyp",
+    "accountType_Guest": "Gäst",
+    "search_Quota": "Sök kvot (månatlig)",
+    "priority": "Prioritet",
+    "priority_category": {
+      "0": "Låg",
+      "1": "Medel",
+      "2": "Hög",
+      "3": "Högsta"
+    },
+    "concurrency_limit": "Begränsning av samtidighet"
+  },
+  "settings": {
+    "show_ad": "Visa annons",
+    "anime_lang": "Anime språk"
+  },
+  "language_menu": "Välj ett språk",
+  "search_menu": "Sökresultat",
+  "languages": {
+    "sv-SE": "Svenska"
+  }
+}

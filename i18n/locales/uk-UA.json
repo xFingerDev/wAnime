@@ -1,0 +1,45 @@
+{
+  "language": "Мова",
+  "buttons": {
+    "back": "Назад"
+  },
+  "home": {
+    "home": "Головна",
+    "history": "Історія",
+    "settings": "Налаштування"
+  },
+  "pageMenu": {
+    "selectImage": "Виберіть зображення",
+    "loading": "Завантаження...",
+    "search": "Пошук"
+  },
+  "anime": {
+    "posible_matches": "Можливі збіги",
+    "similarity": "Схожість",
+    "episode": "Еп."
+  },
+  "account": {
+    "name": "Обліковий запис",
+    "accountId": "ID облікового запису",
+    "accountType": "Тип облікового запису",
+    "accountType_Guest": "Гість",
+    "search_Quota": "Квота на пошук (щомісячна)",
+    "priority": "Пріоритет",
+    "priority_category": {
+      "0": "Низький",
+      "1": "Середній",
+      "2": "Високий",
+      "3": "Найвищий"
+    },
+    "concurrency_limit": "Обмеження одночасності"
+  },
+  "settings": {
+    "show_ad": "Показати рекламу",
+    "anime_lang": "Мова аніме"
+  },
+  "language_menu": "Виберіть мову",
+  "search_menu": "Результати пошуку",
+  "languages": {
+    "uk-UA": "Українська"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "language": "Language",
+  "buttons": {
+    "back": "Back"
+  },
+  "home": {
+    "home": "Home",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "pageMenu": {
+    "selectImage": "Select an image",
+    "loading": "Loading...",
+    "search": "Search"
+  },
+  "anime": {
+    "posible_matches": "Possible Matches",
+    "similarity": "Similarity",
+    "episode": "Ep."
+  },
+  "account": {
+    "name": "Account",
+    "accountId": "Account ID",
+    "accountType": "Account Type",
+    "accountType_Guest": "Guest",
+    "search_Quota": "Search Quota (Monthly)",
+    "priority": "Priority",
+    "priority_category": {
+      "0": "Low",
+      "1": "Medium",
+      "2": "High",
+      "3": "Highest"
+    },
+    "concurrency_limit": "Concurrency Limit"
+  },
+  "settings": {
+    "show_ad": "Show Ad",
+    "anime_lang": "Anime Language"
+  },
+  "language_menu": "Select a Language",
+  "search_menu": "Search Results",
+  "languages": {
+    "en-US": "English",
+    "es-ES": "Spanish",
+    "ar-SA": "Arabic",
+    "de-DE": "German",
+    "fr-FR": "French",
+    "he-IL": "Hebrew",
+    "hi-IN": "Hindi",
+    "it-IT": "Italian",
+    "ja-JP": "Japanese",
+    "ko-KR": "Korean",
+    "nl-NL": "Dutch",
+    "pt-PT": "Portuguese",
+    "ru-RU": "Russian",
+    "sv-SE": "Swedish",
+    "zh-CN": "Chinese (Simplified)",
+    "zh-TW": "Chinese (Traditional)",
+    "da-DK": "Danish",
+    "pl-PL": "Polish",
+    "tr-TR": "Turkish",
+    "cs-CZ": "Czech",
+    "uk-UA": "Ukrainian",
+    "th-TH": "Thai"
+  }
+}

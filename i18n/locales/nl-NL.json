@@ -1,0 +1,45 @@
+{
+  "language": "Taal",
+  "buttons": {
+    "back": "Terug"
+  },
+  "home": {
+    "home": "Startpagina",
+    "history": "Geschiedenis",
+    "settings": "Instellingen"
+  },
+  "pageMenu": {
+    "selectImage": "Selecteer een afbeelding",
+    "loading": "Laden...",
+    "search": "Zoeken"
+  },
+  "anime": {
+    "posible_matches": "Mogelijke Overeenkomsten",
+    "similarity": "Gelijkenis",
+    "episode": "Aflevering"
+  },
+  "account": {
+    "name": "Account",
+    "accountId": "Account ID",
+    "accountType": "Accounttype",
+    "accountType_Guest": "Gast",
+    "search_Quota": "Zoekquotum (Maandelijks)",
+    "priority": "Prioriteit",
+    "priority_category": {
+      "0": "Laag",
+      "1": "Gemiddeld",
+      "2": "Hoog",
+      "3": "Zeer Hoog"
+    },
+    "concurrency_limit": "Gelijktijdigheidslimiet"
+  },
+  "settings": {
+    "show_ad": "Advertentie Weergeven",
+    "anime_lang": "Anime Taal"
+  },
+  "language_menu": "Selecteer een Taal",
+  "search_menu": "Zoekresultaten",
+  "languages": {
+    "nl-NL": "Nederlands"
+  }
+}

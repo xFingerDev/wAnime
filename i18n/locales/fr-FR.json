@@ -1,0 +1,45 @@
+{
+  "language": "Langue",
+  "buttons": {
+    "back": "Retour"
+  },
+  "home": {
+    "home": "Accueil",
+    "history": "Historique",
+    "settings": "Paramètres"
+  },
+  "pageMenu": {
+    "selectImage": "Sélectionner une image",
+    "loading": "Chargement...",
+    "search": "Recherche"
+  },
+  "anime": {
+    "posible_matches": "Correspondances Possibles",
+    "similarity": "Similarité",
+    "episode": "Ép."
+  },
+  "account": {
+    "name": "Compte",
+    "accountId": "ID de Compte",
+    "accountType": "Type de Compte",
+    "accountType_Guest": "Invité",
+    "search_Quota": "Quota de Recherche (Mensuel)",
+    "priority": "Priorité",
+    "priority_category": {
+      "0": "Faible",
+      "1": "Moyenne",
+      "2": "Élevée",
+      "3": "Très Élevée"
+    },
+    "concurrency_limit": "Limite de Concurrence"
+  },
+  "settings": {
+    "show_ad": "Afficher la Publicité",
+    "anime_lang": "Langue de l'Anime"
+  },
+  "language_menu": "Sélectionnez une Langue",
+  "search_menu": "Résultats de Recherche",
+  "languages": {
+    "fr-FR": "Français"
+  }
+}

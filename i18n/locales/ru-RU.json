@@ -1,0 +1,45 @@
+{
+  "language": "Язык",
+  "buttons": {
+    "back": "Назад"
+  },
+  "home": {
+    "home": "Главная",
+    "history": "История",
+    "settings": "Настройки"
+  },
+  "pageMenu": {
+    "selectImage": "Выбрать изображение",
+    "loading": "Загрузка...",
+    "search": "Поиск"
+  },
+  "anime": {
+    "posible_matches": "Возможные совпадения",
+    "similarity": "Сходство",
+    "episode": "Эп."
+  },
+  "account": {
+    "name": "Учетная запись",
+    "accountId": "ID учетной записи",
+    "accountType": "Тип учетной записи",
+    "accountType_Guest": "Гость",
+    "search_Quota": "Квота поиска (ежемесячно)",
+    "priority": "Приоритет",
+    "priority_category": {
+      "0": "Низкий",
+      "1": "Средний",
+      "2": "Высокий",
+      "3": "Очень высокий"
+    },
+    "concurrency_limit": "Лимит параллельных запросов"
+  },
+  "settings": {
+    "show_ad": "Показать рекламу",
+    "anime_lang": "Язык аниме"
+  },
+  "language_menu": "Выберите язык",
+  "search_menu": "Результаты поиска",
+  "languages": {
+    "ru-RU": "Русский"
+  }
+}
