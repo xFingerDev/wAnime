@@ -1,0 +1,47 @@
+{
+  "language": "Jazyk",
+  "buttons": {
+    "back": "Zpět"
+  },
+  "home": {
+    "home": "Domov",
+    "history": "Historie",
+    "settings": "Nastavení"
+  },
+  "pageMenu": {
+    "selectImage": "Vybrat obrázek",
+    "loading": "Načítání...",
+    "search": "Hledat",
+    "error": {
+      "api": "Při zpracování žádosti došlo k chybě. Zkuste to prosím znovu později."
+    }
+  },
+  "anime": {
+    "posible_matches": "Možné shody",
+    "similarity": "Podobnost"
+  },
+  "account": {
+    "name": "Účet",
+    "accountId": "ID účtu",
+    "accountType": "Typ účtu",
+    "accountType_Guest": "Host",
+    "search_Quota": "Kvóta vyhledávání (měsíčně)",
+    "priority": "Priorita",
+    "priority_category": {
+      "0": "Nízká",
+      "1": "Střední",
+      "2": "Vysoká",
+      "3": "Nejvyšší"
+    },
+    "concurrency_limit": "Omezení souběžnosti"
+  },
+  "settings": {
+    "show_ad": "Zobrazit reklamu",
+    "anime_lang": "Jazyk anime"
+  },
+  "language_menu": "Vyberte jazyk",
+  "search_menu": "Výsledky vyhledávání",
+  "languages": {
+    "cs-CZ": "Čeština"
+  }
+}

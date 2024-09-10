@@ -1,0 +1,48 @@
+{
+  "language": "Język",
+  "buttons": {
+    "back": "Wstecz"
+  },
+  "home": {
+    "home": "Strona główna",
+    "history": "Historia",
+    "settings": "Ustawienia"
+  },
+  "pageMenu": {
+    "selectImage": "Wybierz obraz",
+    "loading": "Ładowanie...",
+    "search": "Szukaj",
+    "error": {
+      "api": "Wystąpił błąd podczas przetwarzania żądania. Spróbuj ponownie później."
+    }
+  },
+  "anime": {
+    "posible_matches": "Możliwe dopasowania",
+    "similarity": "Podobieństwo",
+    "episode": "Odc."
+  },
+  "account": {
+    "name": "Konto",
+    "accountId": "ID konta",
+    "accountType": "Typ konta",
+    "accountType_Guest": "Gość",
+    "search_Quota": "Kwota wyszukiwania (miesięczna)",
+    "priority": "Priorytet",
+    "priority_category": {
+      "0": "Niski",
+      "1": "Średni",
+      "2": "Wysoki",
+      "3": "Bardzo wysoki"
+    },
+    "concurrency_limit": "Limit współbieżności"
+  },
+  "settings": {
+    "show_ad": "Pokaż reklamę",
+    "anime_lang": "Język anime"
+  },
+  "language_menu": "Wybierz język",
+  "search_menu": "Wyniki wyszukiwania",
+  "languages": {
+    "pl-PL": "Polski"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "language": "語言",
+  "buttons": {
+    "back": "返回"
+  },
+  "home": {
+    "home": "首頁",
+    "history": "歷史",
+    "settings": "設定"
+  },
+  "pageMenu": {
+    "selectImage": "選擇圖片",
+    "loading": "載入中...",
+    "search": "搜尋",
+    "error": {
+      "api": "處理請求時發生錯誤。請稍後再試。"
+    }
+  },
+  "anime": {
+    "posible_matches": "可能的匹配",
+    "similarity": "相似度",
+    "episode": "集"
+  },
+  "account": {
+    "name": "帳戶",
+    "accountId": "帳戶 ID",
+    "accountType": "帳戶類型",
+    "accountType_Guest": "訪客",
+    "search_Quota": "搜尋配額（每月）",
+    "priority": "優先權",
+    "priority_category": {
+      "0": "低",
+      "1": "中",
+      "2": "高",
+      "3": "最高"
+    },
+    "concurrency_limit": "並發限制"
+  },
+  "settings": {
+    "show_ad": "顯示廣告",
+    "anime_lang": "動畫語言"
+  },
+  "language_menu": "選擇語言",
+  "search_menu": "搜尋結果",
+  "languages": {
+    "zh-TW": "中文 (繁體)"
+  }
+}

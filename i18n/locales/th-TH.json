@@ -1,0 +1,48 @@
+{
+  "language": "ภาษา",
+  "buttons": {
+    "back": "กลับ"
+  },
+  "home": {
+    "home": "หน้าแรก",
+    "history": "ประวัติ",
+    "settings": "การตั้งค่า"
+  },
+  "pageMenu": {
+    "selectImage": "เลือกภาพ",
+    "loading": "กำลังโหลด...",
+    "search": "ค้นหา",
+    "error": {
+      "api": "เกิดข้อผิดพลาดขณะดำเนินการตามคำขอ โปรดลองอีกครั้งในภายหลัง"
+    }
+  },
+  "anime": {
+    "posible_matches": "ความตรงกันที่เป็นไปได้",
+    "similarity": "ความคล้ายคลึง",
+    "episode": "ตอน"
+  },
+  "account": {
+    "name": "บัญชี",
+    "accountId": "บัญชี ID",
+    "accountType": "ประเภทบัญชี",
+    "accountType_Guest": "แขก",
+    "search_Quota": "โควตาค้นหา (รายเดือน)",
+    "priority": "ลำดับความสำคัญ",
+    "priority_category": {
+      "0": "ต่ำ",
+      "1": "กลาง",
+      "2": "สูง",
+      "3": "สูงสุด"
+    },
+    "concurrency_limit": "ขีดจำกัดความพร้อมกัน"
+  },
+  "settings": {
+    "show_ad": "แสดงโฆษณา",
+    "anime_lang": "ภาษาอนิเมะ"
+  },
+  "language_menu": "เลือกภาษา",
+  "search_menu": "ผลการค้นหา",
+  "languages": {
+    "th-TH": "ไทย"
+  }
+}

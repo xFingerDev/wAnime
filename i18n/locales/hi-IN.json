@@ -1,0 +1,48 @@
+{
+  "language": "भाषा",
+  "buttons": {
+    "back": "वापस"
+  },
+  "home": {
+    "home": "मुखपृष्ठ",
+    "history": "इतिहास",
+    "settings": "सेटिंग्स"
+  },
+  "pageMenu": {
+    "selectImage": "एक छवि चुनें",
+    "loading": "लोड हो रहा है...",
+    "search": "खोजें",
+    "error": {
+      "api": "अनुरोध संसाधित करते समय एक त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।"
+    }
+  },
+  "anime": {
+    "posible_matches": "संभावित मिलान",
+    "similarity": "समानता",
+    "episode": "एप."
+  },
+  "account": {
+    "name": "खाता",
+    "accountId": "खाता आईडी",
+    "accountType": "खाता प्रकार",
+    "accountType_Guest": "अतिथि",
+    "search_Quota": "खोज कोटा (मासिक)",
+    "priority": "प्राथमिकता",
+    "priority_category": {
+      "0": "कम",
+      "1": "मध्यम",
+      "2": "उच्च",
+      "3": "अत्यधिक"
+    },
+    "concurrency_limit": "सहवर्ती सीमा"
+  },
+  "settings": {
+    "show_ad": "विज्ञापन दिखाएँ",
+    "anime_lang": "एनीमे भाषा"
+  },
+  "language_menu": "एक भाषा चुनें",
+  "search_menu": "खोज परिणाम",
+  "languages": {
+    "hi-IN": "हिन्दी"
+  }
+}

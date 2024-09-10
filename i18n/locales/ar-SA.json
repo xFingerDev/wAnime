@@ -1,0 +1,47 @@
+{
+  "language": "اللغة",
+  "buttons": {
+    "back": "عودة"
+  },
+  "home": {
+    "home": "الصفحة الرئيسية",
+    "history": "السجل",
+    "settings": "الإعدادات"
+  },
+  "pageMenu": {
+    "selectImage": "اختر صورة",
+    "loading": "جارٍ التحميل...",
+    "search": "بحث",
+    "error": {
+      "api": "حدث خطأ أثناء معالجة الطلب. يرجى المحاولة مرة أخرى لاحقًا."
+    }
+  },
+  "anime": {
+    "posible_matches": "مطابقات ممكنة",
+    "similarity": "التشابه"
+  },
+  "account": {
+    "name": "الحساب",
+    "accountId": "معرف الحساب",
+    "accountType": "نوع الحساب",
+    "accountType_Guest": "ضيف",
+    "search_Quota": "حصة البحث (شهري)",
+    "priority": "الأولوية",
+    "priority_category": {
+      "0": "منخفض",
+      "1": "متوسط",
+      "2": "مرتفع",
+      "3": "الأعلى"
+    },
+    "concurrency_limit": "حد التزامن"
+  },
+  "settings": {
+    "show_ad": "عرض الإعلان",
+    "anime_lang": "لغة الأنمي"
+  },
+  "language_menu": "اختر لغة",
+  "search_menu": "نتائج البحث",
+  "languages": {
+    "ar-SA": "العربية"
+  }
+}

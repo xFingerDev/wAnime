@@ -1,0 +1,48 @@
+{
+  "language": "Sprog",
+  "buttons": {
+    "back": "Tilbage"
+  },
+  "home": {
+    "home": "Hjem",
+    "history": "Historik",
+    "settings": "Indstillinger"
+  },
+  "pageMenu": {
+    "selectImage": "Vælg et billede",
+    "loading": "Indlæser...",
+    "search": "Søg",
+    "error": {
+      "api": "Der opstod en fejl under behandlingen af ​​anmodningen. Prøv igen senere."
+    }
+  },
+  "anime": {
+    "posible_matches": "Mulige match",
+    "similarity": "Lighed",
+    "episode": "Afsn."
+  },
+  "account": {
+    "name": "Konto",
+    "accountId": "Konto ID",
+    "accountType": "Kontotype",
+    "accountType_Guest": "Gæst",
+    "search_Quota": "Søgekvote (månedligt)",
+    "priority": "Prioritet",
+    "priority_category": {
+      "0": "Lav",
+      "1": "Mellem",
+      "2": "Høj",
+      "3": "Højeste"
+    },
+    "concurrency_limit": "Samtidig grænse"
+  },
+  "settings": {
+    "show_ad": "Vis annonce",
+    "anime_lang": "Anime sprog"
+  },
+  "language_menu": "Vælg et sprog",
+  "search_menu": "Søgeresultater",
+  "languages": {
+    "da-DK": "Dansk"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "language": "언어",
+  "buttons": {
+    "back": "뒤로"
+  },
+  "home": {
+    "home": "홈",
+    "history": "기록",
+    "settings": "설정"
+  },
+  "pageMenu": {
+    "selectImage": "이미지 선택",
+    "loading": "로딩 중...",
+    "search": "검색",
+    "error": {
+      "api": "요청 처리 중 오류가 발생했습니다. 나중에 다시 시도해 주세요."
+    }
+  },
+  "anime": {
+    "posible_matches": "가능한 일치",
+    "similarity": "유사성",
+    "episode": "회"
+  },
+  "account": {
+    "name": "계정",
+    "accountId": "계정 ID",
+    "accountType": "계정 유형",
+    "accountType_Guest": "손님",
+    "search_Quota": "검색 할당량 (월간)",
+    "priority": "우선순위",
+    "priority_category": {
+      "0": "낮음",
+      "1": "중간",
+      "2": "높음",
+      "3": "가장 높음"
+    },
+    "concurrency_limit": "동시성 제한"
+  },
+  "settings": {
+    "show_ad": "광고 보기",
+    "anime_lang": "애니메이션 언어"
+  },
+  "language_menu": "언어 선택",
+  "search_menu": "검색 결과",
+  "languages": {
+    "ko-KR": "한국어"
+  }
+}

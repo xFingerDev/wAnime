@@ -1,0 +1,47 @@
+{
+  "language": "Idioma",
+  "buttons": {
+    "back": "Voltar"
+  },
+  "home": {
+    "home": "Início",
+    "history": "Histórico",
+    "settings": "Definições"
+  },
+  "pageMenu": {
+    "selectImage": "Selecionar uma imagem",
+    "loading": "A carregar...",
+    "search": "Pesquisar",
+    "error": {
+      "api": "Ocorreu um erro ao processar a solicitação. Por favor, tente novamente mais tarde."
+    }
+  },
+  "anime": {
+    "posible_matches": "Possíveis Correspondências",
+    "similarity": "Similaridade"
+  },
+  "account": {
+    "name": "Conta",
+    "accountId": "ID da Conta",
+    "accountType": "Tipo de Conta",
+    "accountType_Guest": "Convidado",
+    "search_Quota": "Quota de Pesquisa (Mensal)",
+    "priority": "Prioridade",
+    "priority_category": {
+      "0": "Baixa",
+      "1": "Média",
+      "2": "Alta",
+      "3": "Máxima"
+    },
+    "concurrency_limit": "Limite de Concurrência"
+  },
+  "settings": {
+    "show_ad": "Mostrar Anúncio",
+    "anime_lang": "Idioma do Anime"
+  },
+  "language_menu": "Selecionar um Idioma",
+  "search_menu": "Resultados da Pesquisa",
+  "languages": {
+    "pt-PT": "Português"
+  }
+}

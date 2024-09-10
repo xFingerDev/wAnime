@@ -1,0 +1,48 @@
+{
+  "language": "Dil",
+  "buttons": {
+    "back": "Geri"
+  },
+  "home": {
+    "home": "Ana Sayfa",
+    "history": "Geçmiş",
+    "settings": "Ayarlar"
+  },
+  "pageMenu": {
+    "selectImage": "Bir resim seçin",
+    "loading": "Yükleniyor...",
+    "search": "Ara",
+    "error": {
+      "api": "İstek işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "anime": {
+    "posible_matches": "Olası Eşleşmeler",
+    "similarity": "Benzerlik",
+    "episode": "Böl."
+  },
+  "account": {
+    "name": "Hesap",
+    "accountId": "Hesap ID",
+    "accountType": "Hesap Türü",
+    "accountType_Guest": "Misafir",
+    "search_Quota": "Arama Kotası (Aylık)",
+    "priority": "Öncelik",
+    "priority_category": {
+      "0": "Düşük",
+      "1": "Orta",
+      "2": "Yüksek",
+      "3": "En Yüksek"
+    },
+    "concurrency_limit": "Eşzamanlılık Limiti"
+  },
+  "settings": {
+    "show_ad": "Reklam Göster",
+    "anime_lang": "Anime Dili"
+  },
+  "language_menu": "Bir Dil Seçin",
+  "search_menu": "Arama Sonuçları",
+  "languages": {
+    "tr-TR": "Türkçe"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "language": "שפה",
+  "buttons": {
+    "back": "חזור"
+  },
+  "home": {
+    "home": "בית",
+    "history": "היסטוריה",
+    "settings": "הגדרות"
+  },
+  "pageMenu": {
+    "selectImage": "בחר תמונה",
+    "loading": "טוען...",
+    "search": "חפש",
+    "error": {
+      "api": "אירעה שגיאה במהלך עיבוד הבקשה. אנא נסה שוב מאוחר יותר."
+    }
+  },
+  "anime": {
+    "posible_matches": "התאמות אפשריות",
+    "similarity": "דמיון",
+    "episode": "פרק"
+  },
+  "account": {
+    "name": "חשבון",
+    "accountId": "מזהה חשבון",
+    "accountType": "סוג חשבון",
+    "accountType_Guest": "אורח",
+    "search_Quota": "מכסת חיפוש (חודשית)",
+    "priority": "עדיפות",
+    "priority_category": {
+      "0": "נמוכה",
+      "1": "בינונית",
+      "2": "גבוהה",
+      "3": "הגבוהה ביותר"
+    },
+    "concurrency_limit": "מגבלת קונקרנציה"
+  },
+  "settings": {
+    "show_ad": "הצג מודעה",
+    "anime_lang": "שפת אנימה"
+  },
+  "language_menu": "בחר שפה",
+  "search_menu": "תוצאות חיפוש",
+  "languages": {
+    "he-IL": "עברית"
+  }
+}

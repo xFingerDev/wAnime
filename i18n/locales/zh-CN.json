@@ -1,0 +1,48 @@
+{
+  "language": "语言",
+  "buttons": {
+    "back": "返回"
+  },
+  "home": {
+    "home": "主页",
+    "history": "历史",
+    "settings": "设置"
+  },
+  "pageMenu": {
+    "selectImage": "选择图片",
+    "loading": "加载中...",
+    "search": "搜索",
+    "error": {
+      "api": "处理请求时发生错误。请稍后再试。"
+    }
+  },
+  "anime": {
+    "posible_matches": "可能的匹配",
+    "similarity": "相似度",
+    "episode": "集"
+  },
+  "account": {
+    "name": "账户",
+    "accountId": "账户 ID",
+    "accountType": "账户类型",
+    "accountType_Guest": "访客",
+    "search_Quota": "搜索配额（每月）",
+    "priority": "优先级",
+    "priority_category": {
+      "0": "低",
+      "1": "中",
+      "2": "高",
+      "3": "最高"
+    },
+    "concurrency_limit": "并发限制"
+  },
+  "settings": {
+    "show_ad": "显示广告",
+    "anime_lang": "动漫语言"
+  },
+  "language_menu": "选择语言",
+  "search_menu": "搜索结果",
+  "languages": {
+    "zh-CN": "中文 (简体)"
+  }
+}
