@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "選擇圖片",
     "loading": "載入中...",
-    "search": "搜尋"
+    "search": "搜尋",
+    "error": {
+      "api": "處理請求時發生錯誤。請稍後再試。"
+    }
   },
   "anime": {
     "posible_matches": "可能的匹配",

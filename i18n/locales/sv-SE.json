@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Välj en bild",
     "loading": "Laddar...",
-    "search": "Sök"
+    "search": "Sök",
+    "error": {
+      "api": "Ett fel uppstod vid bearbetning av förfrågan. Försök igen senare."
+    }
   },
   "anime": {
     "posible_matches": "Möjliga matchningar",

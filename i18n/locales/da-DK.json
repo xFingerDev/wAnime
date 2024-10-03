@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Vælg et billede",
     "loading": "Indlæser...",
-    "search": "Søg"
+    "search": "Søg",
+    "error": {
+      "api": "Der opstod en fejl under behandlingen af ​​anmodningen. Prøv igen senere."
+    }
   },
   "anime": {
     "posible_matches": "Mulige match",

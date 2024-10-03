@@ -3,22 +3,21 @@ import {
   View,
   Text,
   Image,
-  FlatList,
   TouchableOpacity,
   Linking,
   ScrollView,
 } from "react-native";
-import { useLocalSearchParams } from "expo-router";
-import { TypeMoe } from "../api/traceMoeApi";
 import { t } from "i18next";
-import { GetTitleOfAnime } from "../constants/GetTitleOfAnime";
+import { GetTitleOfAnime } from "../utils/GetTitleOfAnime";
+import { AnimeModel } from "../types/AnimeModel";
+import { AnimeLang } from "../constants/AnimeLang";
 
 const renderAlternativeItem = ({
   item: moe,
   animeLang,
 }: {
-  item: TypeMoe;
-  animeLang: string;
+  item: AnimeModel;
+  animeLang: AnimeLang;
 }) => (
   <View className="mb-4  rounded-lg border border-gray-400 p-3 flex-row ">
     <Image

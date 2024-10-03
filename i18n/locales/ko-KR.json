@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "이미지 선택",
     "loading": "로딩 중...",
-    "search": "검색"
+    "search": "검색",
+    "error": {
+      "api": "요청 처리 중 오류가 발생했습니다. 나중에 다시 시도해 주세요."
+    }
   },
   "anime": {
     "posible_matches": "가능한 일치",

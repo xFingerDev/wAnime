@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Seleziona un'immagine",
     "loading": "Caricamento...",
-    "search": "Cerca"
+    "search": "Cerca",
+    "error": {
+      "api": "Si è verificato un errore durante l'elaborazione della richiesta. Riprova più tardi."
+    }
   },
   "anime": {
     "posible_matches": "Corrispondenze Possibili",

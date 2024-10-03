@@ -1,5 +1,3 @@
-import { gql } from "graphql-request";
-
 export interface AnimeModelGQL {
   id: string;
   isAdult: boolean;

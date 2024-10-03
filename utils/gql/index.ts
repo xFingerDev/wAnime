@@ -3,6 +3,7 @@ import { GraphQLClient } from "graphql-request";
 const graphQL = new GraphQLClient("https://graphql.anilist.co");
 
 const MAX_RETRY = 3;
+
 export async function clientGraphQL<T>(
   query: string,
   variables: Record<string, any>

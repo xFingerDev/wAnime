@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Bir resim seçin",
     "loading": "Yükleniyor...",
-    "search": "Ara"
+    "search": "Ara",
+    "error": {
+      "api": "İstek işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    }
   },
   "anime": {
     "posible_matches": "Olası Eşleşmeler",

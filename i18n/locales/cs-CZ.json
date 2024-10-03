@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Vybrat obrázek",
     "loading": "Načítání...",
-    "search": "Hledat"
+    "search": "Hledat",
+    "error": {
+      "api": "Při zpracování žádosti došlo k chybě. Zkuste to prosím znovu později."
+    }
   },
   "anime": {
     "posible_matches": "Možné shody",

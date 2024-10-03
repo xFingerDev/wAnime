@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Select an image",
     "loading": "Loading...",
-    "search": "Search"
+    "search": "Search",
+    "error": {
+      "api": "An error occurred while processing the request. Please try again later."
+    }
   },
   "anime": {
     "posible_matches": "Possible Matches",

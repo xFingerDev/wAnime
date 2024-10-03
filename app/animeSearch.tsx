@@ -9,23 +9,22 @@ import {
   ScrollView,
 } from "react-native";
 import { useLocalSearchParams } from "expo-router";
-import { TypeMoe } from "../api/traceMoeApi";
 import renderAlternativeItem from "../components/renderAlternativeItem";
 import { t } from "i18next";
-import { AnimeLang } from "../constants/animeLang";
+import { AnimeLang } from "../constants/AnimeLang";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { GetTitleOfAnime } from "../constants/GetTitleOfAnime";
+import { GetTitleOfAnime } from "../utils/GetTitleOfAnime";
+import { AnimeModel } from "../types/AnimeModel";
 
 export default function Page() {
   const { moePosibles } = useLocalSearchParams();
-  const results: TypeMoe[] = JSON.parse(moePosibles as string);
+  const results: AnimeModel[] = JSON.parse(moePosibles as string);
   const [animeLang, setAnimeLang] = useState<AnimeLang>(AnimeLang.romaji);
 
   useEffect(() => {
-    AsyncStorage.getItem("animeLang").then((ad) => {
-      if (!ad) return;
-      setAnimeLang(ad as AnimeLang);
-    });
+    AsyncStorage.getItem("animeLang").then(
+      (ad) => ad && setAnimeLang(ad as AnimeLang)
+    );
   }, [animeLang]);
 
   const sortedResults = [...results].sort(
@@ -34,7 +33,7 @@ export default function Page() {
   const mainResult = sortedResults[0];
   const alternativeResults = sortedResults.slice(1);
 
-  const renderMainResult = (moe: TypeMoe) => (
+  const renderMainResult = (moe: AnimeModel) => (
     <View className="mb-6">
       <Image
         source={{ uri: moe.aniListModel?.coverImage.extraLarge ?? moe.image }}
@@ -71,33 +70,12 @@ export default function Page() {
   return (
     <ScrollView className="flex-1 bg-black p-4">
       {renderMainResult(mainResult)}
-      <View className="mb-8 mt-4" style={{ flexDirection: "row" }}>
-        <View
-          className="bg-gray-400"
-          style={{
-            height: 2,
-            flex: 1,
-            alignSelf: "center",
-          }}
-        />
-        <Text
-          className="text-gray-400"
-          style={{
-            alignSelf: "center",
-            paddingHorizontal: 5,
-            fontSize: 24,
-          }}
-        >
+      <View className="mb-8 mt-4 flex-row">
+        <View className="bg-gray-400 h-0.5 flex-1 self-center" />
+        <Text className="text-gray-400 self-center px-5 text-2xl">
           {t("anime.posible_matches")}
         </Text>
-        <View
-          className="bg-gray-400"
-          style={{
-            height: 2,
-            flex: 1,
-            alignSelf: "center",
-          }}
-        />
+        <View className="bg-gray-400 h-0.5 flex-1 self-center" />
       </View>
       <FlatList
         data={alternativeResults}

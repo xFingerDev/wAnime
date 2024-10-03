@@ -1,7 +1,7 @@
-import { TypeMoe } from "../api/traceMoeApi";
-import { AnimeLang } from "./animeLang";
+import { AnimeLang } from "../constants/AnimeLang";
+import { AnimeModel } from "../types/AnimeModel";
 
-export function GetTitleOfAnime(lang: AnimeLang, moe: TypeMoe) {
+export function GetTitleOfAnime(lang: AnimeLang, moe: AnimeModel) {
   switch (lang) {
     case AnimeLang.en:
       return (

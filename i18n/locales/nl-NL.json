@@ -11,7 +11,10 @@
   "pageMenu": {
     "selectImage": "Selecteer een afbeelding",
     "loading": "Laden...",
-    "search": "Zoeken"
+    "search": "Zoeken",
+    "error": {
+      "api": "Er is een fout opgetreden bij het verwerken van het verzoek. Probeer het later opnieuw."
+    }
   },
   "anime": {
     "posible_matches": "Mogelijke Overeenkomsten",
