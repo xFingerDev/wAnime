@@ -89,7 +89,7 @@ export default function IndexPage() {
         }
 
         setLoadingApi(true);
-        await API.GetAnimes(image)
+        await API.getAnimes(image)
           .then((animes) => setMoePosibles(animes))
           .catch(() => {
             setMoePosibles(null);
@@ -122,13 +122,13 @@ export default function IndexPage() {
 
   return (
     <SafeAreaView className="flex-1 bg-black">
-      <View className="mt-2">
+      {/*<View className="mt-6">
         <Image
           className="self-center h-44"
           source={APP_ICON}
           resizeMode="contain"
         />
-      </View>
+      </View>*/}
       {renderMenu()}
     </SafeAreaView>
   );

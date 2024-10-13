@@ -10,7 +10,7 @@ import { MoeApiInfo } from "../../types/MoeApiInfo";
 import { StorageManager } from "../storage/StorageManager";
 
 export class API {
-  static async GetMoe(uri: string): Promise<MoeAnimeModel[]> {
+  static async getMoe(uri: string): Promise<MoeAnimeModel[]> {
     const formData = new FormData();
     const fileUri = await FileSystem.getContentUriAsync(uri);
     const fileInfo = await FileSystem.getInfoAsync(fileUri);
@@ -37,8 +37,8 @@ export class API {
     return request.data.result;
   }
 
-  static async GetAnimes(uri: string): Promise<AnimeModel[]> {
-    const moeAnimes = await this.GetMoe(uri);
+  static async getAnimes(uri: string): Promise<AnimeModel[]> {
+    const moeAnimes = await this.getMoe(uri);
     const requestGraph = await clientGraphQL<PaginationAnimeModelGQL>(
       queryAnimeByIds,
       { ids: moeAnimes.map(({ anilist }) => anilist) }
@@ -64,7 +64,7 @@ export class API {
     return result;
   }
 
-  static async GetApiInfo(): Promise<MoeApiInfo | null> {
+  static async getApiInfo(): Promise<MoeApiInfo | null> {
     const data = await axios.get<MoeApiInfo>("https://api.trace.moe/me");
     if (data.status !== 200) {
       return null;

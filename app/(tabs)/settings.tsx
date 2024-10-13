@@ -32,7 +32,7 @@ export default function Page() {
 
   useFocusEffect(() => {
     (async () => {
-      await API.GetApiInfo().then((data) => data && setUser(data));
+      await API.getApiInfo().then((data) => data && setUser(data));
     })();
   });
 
