@@ -1,10 +1,24 @@
 <p align="center"><img src="assets/icon.png" width="150"></p>
-<h1 align="center"><b>wAnime</b></h1>
+<h1 align="center"><b>wAnime</b>
+
+<p align="center">
+    <a href="https://github.com/xFingerDev/wAnime/releases/">
+        <img alt="GitHub" src="https://img.shields.io/badge/Download%20from-GitHub-24292E?style=for-the-badge&logo=github">
+    </a>
+   <!-- <a href="https://f-droid.org/">
+        <img alt="F-Droid" src="https://img.shields.io/badge/Download%20from-F--Droid-1976D2?style=for-the-badge&logo=f-droid">
+    </a>-->
+    <a href="https://play.google.com/store/apps/details?id=com.communitybakery.wanime">
+        <img alt="Google Play" src="https://img.shields.io/badge/Download%20from-Play%20Store-3DDC84?style=for-the-badge&logo=google-play">
+    </a>
+</p>
+</h1>
+
 <h4 align="center">Unofficial version of Trace.Moe on mobile device.</h4>
 <p align="center">
-    <a href="https://github.com/YouAreMyTrap/wAnime/releases/">
-        <img alt="Releases" src="https://img.shields.io/github/downloads/YouAreMyTrap/wAnime/total.svg?color=4B95DE&style=flat">
-    </a>
+  <!--   <a href="https://github.com/xFingerDev/wAnime/releases/">
+        <img alt="Releases" src="https://img.shields.io/github/downloads/xFingerDev/wAnime/total.svg?color=4B95DE&style=flat">
+    </a>-->
     <a href="https://www.gnu.org/licenses/gpl-3.0">
         <img src="https://img.shields.io/badge/license-GPL%20v3-2B6DBE.svg?style=flat">
     </a>
