@@ -3,3 +3,6 @@
 /ios
 /node_modules
 /.expo
+.DS_Store
+app/.DS_Store
+utils/gql/.DS_Store
